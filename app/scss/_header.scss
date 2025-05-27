@@ -1,0 +1,85 @@
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.header-wrapper{
+    padding: 45px 0;
+    margin-bottom: 20px;
+    background: #ffc702;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-top__text {
+    width: 215px;
+    font-family: 'OpenSans';
+    font-size: 10px;
+    color: #00295d;
+}
+.header-top__menu{
+    display: flex;
+    gap: 15px;
+}
+.header-top__menu li a{
+    font-family: 'OpenSans';
+    color: #00295d;
+}
+.header-top__menu li a:hover{
+    color: #3980dd;
+}
+.header-top__phone {
+    position: relative;
+    font-weight: 600;
+    color: #00295d;
+    text-decoration: underline;
+}
+.header-top__phone::before{
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 24px;
+    top: -1px;
+    left: -30px;
+    background: url('../images/home/phone-header.svg') no-repeat;
+}
+.header-top__phone:hover{
+    color: #3980dd;
+}
+.header-top__btn {
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+}
+.container-header{
+    background-color: #00295D;
+    border-radius: 20px;
+    padding: 0;
+}
+.header-bottom {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 0.75px solid #fff;
+    border-radius: 20px;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.menu__list li a{
+    font-family: 'OpenSans';
+}
+.menu__list li a:hover{
+    color: #ffc702;
+}
+.menu__list-item--active {
+    color: #ffc702;
+}
