@@ -1,0 +1,37 @@
+html,
+body {
+	height: 100%;/*sticky footer*/
+	display: flex;/*sticky footer*/
+	flex-direction: column;/*sticky footer*/
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: 'Ubuntu';
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	line-height: 1.4;
+	background-color: #00295D;
+ }
+body > * {
+	flex-shrink: 0;
+	/*sticky footer*/
+  }
+.footer{
+	margin-top: auto;/*sticky footer*/
+}
+button{
+	cursor: pointer;
+}
+.container{
+	max-width: 1310px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+a,
+button,
+a:hover,
+button:hover{
+	transition: all .4s ease-in;
+}
