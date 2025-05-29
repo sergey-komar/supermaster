@@ -1,0 +1,219 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(255, 255, 255, .9);
+    z-index: 4;
+}
+
+.modal__inner {
+   position: relative;
+   max-width: 580px;
+   padding: 0 15px;
+}
+.modal__inner-block{
+    padding: 40px;
+    max-width: 580px;
+    border-radius: 15px;
+    background-color: #e0e0e0;
+}
+.modal__inner-title {
+    margin-bottom: 10px;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #00295d;
+}
+.modal__inner-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #00295d;
+}
+.modal-form__input {
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 18px;
+    border: none;
+}
+.modal-form__input{
+    height: 62px;
+    line-height: 62px;
+}
+
+.modal-form__input::placeholder{
+    font-size: 18px;
+   
+}
+
+
+.modal-form__btn{
+    max-width: 500px;
+    width: 100%;
+    height: 62px;
+    line-height: 62px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+
+}
+.modal__close{
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    font-size: 40px;
+    color: #00295d;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+//MODAL-CATALOG
+.modal-catalog {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(255, 255, 255, .5);
+    z-index: 3;
+}
+.modal-wrapper{
+    position: relative;
+    max-width: 950px;
+    padding: 0 15px;
+}
+.modal-cart {
+    display: flex;
+    gap: 60px;
+    padding: 40px;
+    max-width: 950px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.modal-slider {
+    width: 40%;
+}
+.modal-for__img img{
+    width: 87%;
+    margin: 0 auto 10px auto;
+}
+.modal-nav__img img{
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+.modal-cart__content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.modal-cart__content-stock {
+    margin-bottom: 15px;
+    color: #1faf38;
+}
+.modal-cart__content-title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+}
+.modal-cart__content-price{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.modal-cart__content-price span{
+    font-size: 18px;
+    color: #000;
+}
+.modal-cart__content-price p{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+.modal-cart__content-text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #000;
+}
+.modal-cart__content-btn {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+}
+.modal-cart__close{
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    font-size: 40px;
+    color: #00295d;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.modal-slider .slick-prev,
+.modal-slider .slick-next{
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+}
+.modal-slider .slick-prev{
+    background: url('../images/home/arrow-prev.svg') no-repeat;
+    left: -15px;
+}
+.modal-slider .slick-next{
+    right: -15px;
+    background: url('../images/home/arrow-next.svg') no-repeat;
+}
+.modal-slider .slick-track{
+    display: flex;
+}
+.slick-track .slick-slide{
+    	display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+}
+.slick-slide > div,
+.modal-for__img,
+.modal-for__img img{
+    height: 100%;
+    object-fit: cover;
+}
+.modal-nav{
+    margin-top: 20px;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}

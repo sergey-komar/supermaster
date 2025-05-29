@@ -1,0 +1,60 @@
+.footer {
+    padding: 50px 0;
+    background: #ffc702;
+    color: #00295d;
+}
+.footer-top {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top__logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-top__logo span{
+    width: 215px;
+    font-size: 10px;
+}
+.footer-top__menu {
+    display: flex;
+    gap: 15px;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom__text {
+    font-size: 14px;
+}
+.footer-bottom__img,
+.footer-bottom__message{
+    cursor: pointer;
+}
+
+/* КНОПКА НА ВВЕРХ */
+.btnUp{
+    background: #fff;
+    color: #00295d;
+    line-height: 45px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity .5s;
+    pointer-events: none;
+  }
+  
+  .btnUp-visible{
+    opacity: 1;
+    pointer-events: auto;
+  }

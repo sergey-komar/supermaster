@@ -1,0 +1,51 @@
+.heading.heading--vikup .heading-box__item-img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ffc702;
+}
+.heading.heading--vikup .heading-box__item-img img{
+    width: 25px;
+}
+.heading.heading--vikup .heading-box__item{
+    align-items: center;
+    gap: 10px;
+}
+.how--vikup .how-block__item-text{
+    height: 90px;
+}
+.question-block--vikup{
+    padding-top: 110px;
+}
+.question-block--vikup .questions-accardion{
+    padding-bottom: 0;
+}
+
+
+// HOLODILNIK
+.heading--holodilnik .heading-block__content-title{
+    width: 805px;
+}
+.advantages-block__elem {
+    width: calc(100% / 5 - 20px);
+    text-align: center;
+}
+.advantages-block__elem-number {
+    margin-bottom: 15px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffc702;
+}
+.advantages--holodilnik .advantages-block{
+    gap: 30px;
+}
+.advantages-block__elem-text {
+    font-size: 20px;
+}
+.how--holodilnik .how-block__item-text{
+    padding: 20px;
+}
